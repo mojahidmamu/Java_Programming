@@ -16,25 +16,50 @@ C. Jump statement:
 
 1.if statement: 
 int age = 18;
-if(age >= 18)
+    if(age >= 18)
     {
         System.out.println("You can vote");
     }
 
 2. if-else statement: 
 int age = 18;
-if(age >= 18)
+    if(age >= 18)
     {
         System.out.println("You can vote");
     }
     else 
     {
-    System.out.println("Not Adult");
+        System.out.println("Not Adult");
     }
 
 3. if-else if-else: 
 int marks = 79;
-if(marks >= 80)
+    if(marks >= 80)
     {
         System.out.println("A+");
+    }
+        else if(marks >= 60)
+    {
+        System.out.println("A-");
+    }
+    else
+    {
+        System.out.println("Pass");
+    }
+
+4. switch statement: 
+    int day = 3;
+    switch(day)
+    {
+        case 1: 
+            System.out.println("Monday"); 
+            break;  
+        case 2: 
+            System.out.println("Tuesday"); 
+            break;
+        case 3: 
+            System.out.println("Wednesday"); 
+            break;  
+        default: 
+            System.out.println("Invalid Day");
     }
