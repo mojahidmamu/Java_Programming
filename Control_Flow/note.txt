@@ -31,3 +31,10 @@ if(age >= 18)
     {
     System.out.println("Not Adult");
     }
+
+3. if-else if-else: 
+int marks = 79;
+if(marks >= 80)
+    {
+        System.out.println("A+");
+    }
