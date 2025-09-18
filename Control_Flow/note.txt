@@ -99,4 +99,5 @@ int marks = 79;
     }
         System.out.println(i);
     }
+    
 // Output: 1 2 4
