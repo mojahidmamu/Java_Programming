@@ -1,6 +1,6 @@
 Control Statements (কন্ট্রোল স্টেটমেন্ট): 
 A. Conditional Statements: 
-    > if Statements
+    > if Statements: 
     > if-else statement
     > if-else if-else
     > switch statement
@@ -11,3 +11,23 @@ B. Looping Statements:
     > do-while loop: 
     
 C. Jump statement: 
+    > break
+    > continue
+
+1.if statement: 
+int age = 18;
+if(age >= 18)
+    {
+        System.out.println("You can vote");
+    }
+
+2. if-else statement: 
+int age = 18;
+if(age >= 18)
+    {
+        System.out.println("You can vote");
+    }
+    else 
+    {
+    System.out.println("Not Adult");
+    }
