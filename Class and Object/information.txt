@@ -5,3 +5,13 @@
 => Variables (data) — also called fields or attributes
 => Methods (functions) — define behavior
 => Think of a class as a design and an object as a real thing made from that design
+
+2. What is an Object?
+=> An object is a real-world entity that has:
+=> State (data/attributes)
+=> Behavior (methods/functions)
+***For example:
+    📘 Class = Car
+    🚗 Object = Toyota, BMW, Tesla, etc.
+
+=> Each object has its own data (like color, speed) but shares the same structure defined by the class.
