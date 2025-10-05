@@ -1,0 +1,7 @@
+1. What is class?
+=> A class is like a blueprint or template for creating objects.
+
+*** It defines:
+=> Variables (data) — also called fields or attributes
+=> Methods (functions) — define behavior
+=> Think of a class as a design and an object as a real thing made from that design
