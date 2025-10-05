@@ -26,12 +26,12 @@ public class StudentExample {
         Student s3 = new Student();
 
         // Assign values to S1: 
-        s1.name = "Mojahid";
+        s1.name = "Mojahid + ?";
         s1.roll = 884913;
         s1.marks = 32;
 
         // Assign values to S2: 
-        s2.name = "Mahmud";
+        s2.name = "Mahmud + Tahmina";
         s2.roll = 884888;
         s2.marks = 85;
 
