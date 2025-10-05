@@ -9,6 +9,7 @@ public class arrayExample {
         System.out.println("Array elements:");
         for (int i = 0; i < numbers.length; i++) {
             System.out.println("Element at index " + i + " : " + numbers[i]);
+            System.out.println("Mojahid ");
         }
 
         // Step 3: Access single element
