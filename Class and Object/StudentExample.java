@@ -24,9 +24,17 @@ public class StudentExample {
         Student s1 = new Student();
         Student s2 = new Student();
 
-        // Assign values
-        s1. // Call method
-                Student.s1();
-        Student.s2();
+        // Assign values to S1: 
+        s1.name = "Abdullah all Mojahid";
+        s1.roll = 884913;
+        s1.marks = 32;
+
+        // Assign values to S2: 
+        s1.name = "Mahmud";
+        s1.roll = 884888;
+        s1.marks = 85;
+        // Call method
+        s1.showDetails();
+        s2.showDetails();
     }
 }
