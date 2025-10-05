@@ -12,13 +12,13 @@ class BankAccount {
 
     void deposit(double newAmount) {
         balance += newAmount;
-        System.out.println(newAmount + "deposited, New balance : " + balance);
+        System.out.println(newAmount + " deposited, New balance : " + balance);
     }
 
     void withdraw(double costAmount) {
         if (costAmount <= balance) {
             balance -= costAmount;
-            System.out.println(costAmount + "withdrawn, Remaining balance : " + balance);
+            System.out.println(costAmount + " withdrawn, Remaining balance : " + balance);
         } else {
             System.out.println("Insufficient balance !");
         }
