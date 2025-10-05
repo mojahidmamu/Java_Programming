@@ -14,5 +14,11 @@ public class arrayExample_2 {
         for (int i = 0; i < n; i++) {
             arr[i] = input.nextInt();
         }
+
+        // print all element: 
+        System.out.println("Array elements:");
+        for (int i = 0; i < n; i++) {
+            System.out.println(arr[i] + " ");
+        }
     }
 }
