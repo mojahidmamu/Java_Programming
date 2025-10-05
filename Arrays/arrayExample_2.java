@@ -11,7 +11,8 @@ public class arrayExample_2 {
         int[] arr = new int[n];
         // Taking input from user: 
         System.err.println("Enter " + n + "  elements");
-
-        
+        for (int i = 0; i < n; i++) {
+            arr[i] = input.nextInt();
+        }
     }
 }
