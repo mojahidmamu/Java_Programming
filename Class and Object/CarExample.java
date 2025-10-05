@@ -1,7 +1,5 @@
 // Define a class
-
 class Car {
-
     // Fields (Attributes)
     String color;
     String brand;
@@ -16,8 +14,7 @@ class Car {
 }
 
 // Main class
-public class car {
-
+public class CarExample {
     public static void main(String[] args) {
         // Create object of Car
         Car myCar = new Car();
