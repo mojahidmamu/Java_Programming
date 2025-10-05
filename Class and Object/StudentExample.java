@@ -24,6 +24,7 @@ public class StudentExample {
         Student s1 = new Student();
         Student s2 = new Student();  
         Student s3 = new Student();
+        Student s4 = new Student();
 
         // Assign values to S1: 
         s1.name = "Mojahid + ?";
@@ -41,9 +42,9 @@ public class StudentExample {
         s3.marks = 96;
 
         // Assign values to S4: 
-        s3.name = "Saidur + Afrin";
-        s3.roll = 884889;
-        s3.marks = 90;
+        s4.name = "Saidur + Afrin";
+        s4.roll = 884889;
+        s4.marks = 90;
 
         // Call method
         s1.showDetails();
