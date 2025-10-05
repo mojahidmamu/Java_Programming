@@ -36,7 +36,7 @@ public class StudentExample {
         s2.marks = 85;
 
         // Assign values to S3: 
-        s3.name = "Sazzad+Salman";
+        s3.name = "Sazzad + She";
         s3.roll = 798716;
         s3.marks = 96;
 
