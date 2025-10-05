@@ -1,4 +1,6 @@
+
 public class arrayExample {
+
     public static void main(String[] args) {
         // Step 1: Declare and initialize array
         int[] numbers = {10, 20, 30, 40, 50};
