@@ -3,15 +3,16 @@
 class Student {
 
     // Fields (Attributes)
-    String color;
-    String brand;
-    int speed;
+    String name;
+    int roll;
+    int marks;
 
     // Method (Behavior)
     void showDetails() {
-        System.out.println("Brand: " + brand);
-        System.out.println("Color: " + color);
-        System.out.println("Speed: " + speed + " km/h");
+        System.out.println("Name: " + name);
+        System.out.println("Roll : " + roll);
+        System.out.println("Marks: " + marks);
+        System.out.println("-------------------");
     }
 }
 
@@ -24,12 +25,8 @@ public class StudentExample {
         Student s2 = new Student();
 
         // Assign values
-        myCar.brand = "Toyota";
-        myCar.color = "Red";
-        myCar.speed = 120;
-
-        // Call method
-        Student.s1();
+        s1. // Call method
+                Student.s1();
         Student.s2();
     }
 }
