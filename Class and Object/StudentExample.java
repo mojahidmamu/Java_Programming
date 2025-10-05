@@ -32,7 +32,7 @@ public class StudentExample {
 
         // Assign values to S2: 
         s2.name = "Mahmud + Tahmina";
-        s2.roll = 884888;
+        s2.roll = 884885;
         s2.marks = 85;
 
         // Assign values to S3: 
@@ -40,9 +40,15 @@ public class StudentExample {
         s3.roll = 798716;
         s3.marks = 96;
 
+        // Assign values to S4: 
+        s3.name = "Saidur + Afrin";
+        s3.roll = 884889;
+        s3.marks = 90;
+
         // Call method
         s1.showDetails();
         s2.showDetails();
         s3.showDetails();
+        s4.showDetails();
     }
 }
