@@ -9,6 +9,6 @@
 
     ii. Runtime Polymorphism (Dynamic) → Achieved by Method Overriding
         => When a child class provides a new version of a method already defined in the parent class,
-             it is overriding.
+           it is overriding.
 
 3. 
