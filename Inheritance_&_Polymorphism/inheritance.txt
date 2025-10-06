@@ -8,3 +8,8 @@
     => The Child class called Sub class, (Derived class);
     @@@ Type of Inheritance: 
     => 1. Single Inheritance & 2. Multilevel Inheritance & 3. Hierarchical Inheritance.
+2. Benefite of use Inheritance: 
+    i. Code reusability, 
+    ii. Flexibility 
+    iii. Easier to Maintenance
+    iv. Improve readability 
