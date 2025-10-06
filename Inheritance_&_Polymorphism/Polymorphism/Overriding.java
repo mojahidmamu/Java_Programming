@@ -26,7 +26,7 @@ public class Overriding {  // Class name must match file name
         a = new Dog();
         a.sound();
 
-        a = new Dog();
+        a = new Cat();
         a.sound();
     }
 }
