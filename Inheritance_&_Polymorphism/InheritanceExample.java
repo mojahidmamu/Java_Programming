@@ -1,8 +1,24 @@
+// Parent class: 
 
+class animal {
 
-public class  InheritanceExample{  // Class name must match file name
+    void eat() {
+        System.out.println("Animal can eat");
+    }
+}
+
+// Child class: 
+class Dogs extends animal {
+
+    void barks() {
+        System.out.println("Dogs can bark");
+    }
+}
+
+public class InheritanceExample {  // Class name must match file name
+
     public static void main(String[] args) {
         // --- Your code starts here ---
-        
+
     }
 }
