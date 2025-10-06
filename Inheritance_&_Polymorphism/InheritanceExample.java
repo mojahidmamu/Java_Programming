@@ -19,6 +19,8 @@ public class InheritanceExample {  // Class name must match file name
 
     public static void main(String[] args) {
         // --- Your code starts here ---
-
+        Dogs dogs = new Dogs();
+        dogs.eat(); // Inherited from Animal 
+        dogs.barks(); // Defined in Dog
     }
 }
