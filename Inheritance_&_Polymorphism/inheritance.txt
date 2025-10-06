@@ -1,4 +1,4 @@
-1. Defination: 
+1. Defination: meaning in bangla: (উত্তরাধিকার)
     => Inheritance means one class can acquire the properties and behaviors (methods and variables) of another class.
     => It helps in code reusability and methods overriding.
     ### Example: 
