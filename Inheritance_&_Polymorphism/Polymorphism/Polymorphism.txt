@@ -3,5 +3,12 @@
     => It allows one action to behave differently based on the project.
 
 2. In Java, polymorphism is mainly of two types:
-    i. Compile-time Polymorphism (Static) → Achieved by Method Overloading
+    i. Compile-time Polymorphism (Static) → Achieved by Method Overloading: 
+        =>  When a class has multiple methods with the same name but different parameters, 
+            it is overloading.
+
     ii. Runtime Polymorphism (Dynamic) → Achieved by Method Overriding
+        => When a child class provides a new version of a method already defined in the parent class,
+             it is overriding.
+
+3. 
