@@ -1,3 +1,7 @@
 1. Definition: meaning in bangla:(বহুরুপিতা)
     => Polymorphism means "many forms"
     => It allows one action to behave differently based on the project.
+
+2. In Java, polymorphism is mainly of two types:
+    i. Compile-time Polymorphism (Static) → Achieved by Method Overloading
+    ii. Runtime Polymorphism (Dynamic) → Achieved by Method Overriding
