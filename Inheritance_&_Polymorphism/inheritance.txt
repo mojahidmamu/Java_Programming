@@ -1,2 +1,5 @@
 1. Defination: 
     => Inheritance means one class can acquire the properties and behaviors (methods and variables) of another class.
+    => It helps in code reusability and methods overriding.
+    ### Example: 
+    
