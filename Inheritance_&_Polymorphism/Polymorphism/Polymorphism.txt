@@ -1,2 +1,3 @@
-1. Defination: meaning in bangla:(বহুরুপিতা)
-    => 
+1. Definition: meaning in bangla:(বহুরুপিতা)
+    => Polymorphism means "many forms"
+    => It allows one action to behave differently based on the project.
