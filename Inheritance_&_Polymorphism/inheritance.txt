@@ -6,4 +6,5 @@
     ** in JAVA: 
     => The Parent class called Super class, (Base class);
     => The Child class called Sub class, (Derived class);
-    
+    @@@ Type of Inheritance: 
+    => 1. Single Inheritance & 2. Multilevel Inheritance & 3. Hierarchical Inheritance.
