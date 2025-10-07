@@ -1,0 +1,4 @@
+1. Interfaces > what?
+    => Interfaces in a contact in java.
+    => অন্য কোনো class এই Interface-কে implement করলে, 
+        সেই class-কে Interface-এর সব method define/implement করতে হয়।
