@@ -2,3 +2,12 @@
     => Interfaces in a contact in java.
     => অন্য কোনো class এই Interface-কে implement করলে, 
         সেই class-কে Interface-এর সব method define/implement করতে হয়।
+
+2. in easy word: 
+    i. Interface = Rule book
+
+3. Important point: 
+    i. Interface-এর সব method by default abstract (মানে body ছাড়া)।
+    ii. Interface-এর সব variable by default public, static, final হয়।
+    iii. Class → Interface implement করে implements keyword দিয়ে।
+    iv. এক class একাধিক interface implement করতে পারে।
