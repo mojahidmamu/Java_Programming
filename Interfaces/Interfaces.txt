@@ -13,3 +13,9 @@
     iv. এক class একাধিক interface implement করতে পারে।
     v. Interface অন্য Interface-কে extend করতে পারে।
     vi. Interface-এর object তৈরি করা যায় না, কিন্তু reference করা যায়:
+
+4. Why we use (Interface):
+    i. Abstraction (implementation লুকানো)
+    ii. Multiple inheritance (class দিয়ে সম্ভব নয়, কিন্তু interface দিয়ে হয়)
+    iii. Loose coupling (class গুলো একে অপরের উপর কম নির্ভরশীল হয়)
+    iv. Code standardization (সবার জন্য একরকম rule তৈরি করা)
