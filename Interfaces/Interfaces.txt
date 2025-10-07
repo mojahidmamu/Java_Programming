@@ -12,4 +12,4 @@
     iii. Class → Interface implement করে implements keyword দিয়ে।
     iv. এক class একাধিক interface implement করতে পারে।
     v. Interface অন্য Interface-কে extend করতে পারে।
-    vi. 
+    vi. Interface-এর object তৈরি করা যায় না, কিন্তু reference করা যায়:
