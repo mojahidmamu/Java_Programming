@@ -11,3 +11,5 @@
     ii. Interface-এর সব variable by default public, static, final হয়।
     iii. Class → Interface implement করে implements keyword দিয়ে।
     iv. এক class একাধিক interface implement করতে পারে।
+    v. Interface অন্য Interface-কে extend করতে পারে।
+    vi. 
