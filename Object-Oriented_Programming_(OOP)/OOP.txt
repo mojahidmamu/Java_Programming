@@ -1,2 +1,10 @@
 1. What is OOP?
-    => 
+    => (Object Oriented Programming )
+2. Java is purely OOP Language.
+
+3. 4 pillar of OOP: 
+    i. Encaptulation
+    ii. Inheritance 
+    iii. Abstraction 
+    iv. Polymorphism
+4. 
