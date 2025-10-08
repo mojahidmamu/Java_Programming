@@ -15,6 +15,7 @@ class C implements A, B {
         System.out.println("Showing from A");
     }
 
+    @Override
     public void display() {
         System.out.println("Displaing from B");
     }
