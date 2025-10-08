@@ -1,5 +1,6 @@
 
 class Student {
+
     String name;
     int age;
 
@@ -10,8 +11,7 @@ class Student {
     }
 
     // method: 
-    void  displayShow()
-    {
+    void displayShow() {
         System.err.println("Name is: " + name + " and Age is: " + age);
     }
 }
@@ -21,7 +21,9 @@ public class Student_OOP {  // Class name must match file name
     public static void main(String[] args) {
         // --- Your code starts here ---
         Student s1 = new Student("Mojahid", 18);
+        Student s2 = new Student("Karim", 20);
 
         s1.displayShow();
+        s2.displayShow();
     }
 }
