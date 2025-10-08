@@ -12,7 +12,7 @@ class Student {
     // method: 
     void  displayShow()
     {
-        System.err.println("Name is: " + name + "and Age is: " + age);
+        System.err.println("Name is: " + name + " and Age is: " + age);
     }
 }
 
