@@ -1,6 +1,6 @@
 import java.util.Scanner;
-public class MiniProject {
 
+public class MiniProject {
     public static void main(String[] args) {
         // --- Your code starts here ---  
         // MINI PROJECT: Simple Banking System 
@@ -9,20 +9,22 @@ public class MiniProject {
         int myNumer = (int) (Math.random() * 100);
         int userNumber = 0;
         do {
-            System.err.println("Guess the number");
-            int userNumber = sc.nextInt();
+            System.out.println("Guess the number: 1-100");
+            userNumber = sc.nextInt();
 
             if (userNumber == myNumer) {
-                System.out.println("You guessed it right");
+                System.out.println("You guessed  it right");
                 break;
-            } 
+            }
             else if (userNumber < myNumer) {
-                System.out.println("Too low");
+                System.out.println("Too low, try again.");
             }
              else {
-                System.out.println("Too high");
+                System.out.println("Too high, try again.");
             }
-        } while (userNumber >= 0);
+        } while (userNumber != myNumer);
+
+        System.out.println("The correct number was: " + myNumer);
         sc.close(); 
-    }
+    }   
 }
