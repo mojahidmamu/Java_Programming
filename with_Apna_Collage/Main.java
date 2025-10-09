@@ -23,6 +23,8 @@ public class Main {  // Class name must match file name
         for (int i = 0; i < marks.length; i++) {
             System.out.println("Subject " + (i + 1) + ": " + marks[i]);
         }
+
+         
         // sorting the array
         Arrays.sort(marks);
         System.out.println("Sorted marks: " + Arrays.toString(marks));
@@ -40,5 +42,12 @@ public class Main {  // Class name must match file name
             }
             System.out.println();
         }
+
+        // Casting: Widening and Narrowing
+        int myInt = 9;
+        double myDouble = myInt; // Widening conversion
+        System.out.println("Widening: " + myDouble);
+        int anotherInt = (int) myDouble; // Narrowing conversion
+        System.out.println("Narrowing: " + anotherInt);
     }
 }
