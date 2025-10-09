@@ -151,5 +151,13 @@ public class Main {  // Class name must match file name
             }
             System.out.println("Iteration " + i);
         }
+
+        // try and catch
+        try {
+            int result = 10 / 0;
+            System.out.println("Result: " + result);
+        } catch (ArithmeticException e) {
+            System.out.println("Error: Division by zero is not allowed.");
+        }
     }
 }
