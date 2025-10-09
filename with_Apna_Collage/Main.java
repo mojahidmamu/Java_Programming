@@ -152,8 +152,7 @@ public class Main {  // Class name must match file name
         } catch (ArithmeticException e) {
             System.out.println("Error: Division by zero is not allowed.");
         }
-
-
+        
         // catch multiple exception
         try {
             int[] arr = {1, 2, 3};
@@ -174,10 +173,8 @@ public class Main {  // Class name must match file name
         System.out.println("Factorial of " + number + " is: " + factorial);
 
 
-        // Method Overloading
-        System.out.println("Sum of 5 and 10: " + add(5, 10));
-        System.out.println("Sum of 5.5 and 10.5: " + add(5.5, 10.5));
-        System.out.println("Sum of 5, 10 and 15: " + add(5, 10, 15));
+         
+
     }
 
     // Function to calculate factorial
