@@ -133,5 +133,15 @@ public class Main {  // Class name must match file name
             default:
                 System.out.println("Invalid day");
         }
+
+
+        // break and continue
+        System.out.println("Using break in a loop:");
+        for (int i = 1; i <= 5; i++) {
+            if (i == 3) {
+                break;
+            }
+            System.out.println("Iteration " + i);
+        }
     }
 }
