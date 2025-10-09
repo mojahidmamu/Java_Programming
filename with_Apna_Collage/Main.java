@@ -73,8 +73,7 @@ public class Main {  // Class name must match file name
         // System.out.println("You are " + age + " years old.");
         // scanner.close();
 
-
-
+        
         // Comparison operators
         int x = 10;
         int y = 5;
@@ -85,6 +84,7 @@ public class Main {  // Class name must match file name
         System.out.println("x >= y: " + (x >= y));
         System.out.println("x <= y: " + (x <= y));
 
+
         // Conditional statements
         if (x > y) {
             System.out.println("x is greater than y");
@@ -92,11 +92,14 @@ public class Main {  // Class name must match file name
             System.out.println("x is not greater than y");
         }
 
+
         // Loops
         System.out.println("For loop from 1 to 5:");
         for (int i = 1; i <= 5; i++) {
             System.out.println("Iteration " + i);
         }
+
+
 
         // logic operators
         boolean p = true;
@@ -104,6 +107,8 @@ public class Main {  // Class name must match file name
         System.out.println("p && q: " + (p && q));
         System.out.println("p || q: " + (p || q));
         System.out.println("!p: " + (!p));
+
+
 
         // switch case
         int day = 3;
@@ -127,6 +132,8 @@ public class Main {  // Class name must match file name
                 System.out.println("Invalid day");
         }
 
+
+
         // break and continue
         System.out.println("Using break in a loop:");
         for (int i = 1; i <= 5; i++) {
@@ -145,6 +152,7 @@ public class Main {  // Class name must match file name
         }
 
 
+
         // try and catch
         try {
             int result = 10 / 0;
@@ -152,7 +160,7 @@ public class Main {  // Class name must match file name
         } catch (ArithmeticException e) {
             System.out.println("Error: Division by zero is not allowed.");
         }
-        
+
         // catch multiple exception
         try {
             int[] arr = {1, 2, 3};
@@ -166,14 +174,11 @@ public class Main {  // Class name must match file name
         }
 
 
-
+        
         // functions
         int number = 5;
         int factorial = calculateFactorial(number);
         System.out.println("Factorial of " + number + " is: " + factorial);
-
-
-         
 
     }
 
