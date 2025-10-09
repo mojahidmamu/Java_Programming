@@ -3,9 +3,11 @@ import java.util.Scanner;
 public class MiniProject {
     public static void main(String[] args) {
         // --- Your code starts here ---  
+        
         // MINI PROJECT: Simple Banking System 
-
         Scanner sc = new Scanner(System.in);
+
+        // Randdom number between 0-99: 
         int myNumer = (int) (Math.random() * 100);
         int userNumber = 0;
         do {
