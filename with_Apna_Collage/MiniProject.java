@@ -4,9 +4,10 @@ public class MiniProject {
     public static void main(String[] args) {
         // --- Your code starts here ---  
         // MINI PROJECT: Simple Banking System 
-        
+
         Scanner sc = new Scanner(System.in);
         int myNumer = (int) (Math.random() * 100);
+        int userNumber = 0;
         do {
             System.err.println("Guess the number");
             int userNumber = sc.nextInt();
@@ -21,6 +22,7 @@ public class MiniProject {
              else {
                 System.out.println("Too high");
             }
-        }  
+        } while (userNumber >= 0);
+        sc.close(); 
     }
 }
