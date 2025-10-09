@@ -74,7 +74,7 @@ public class Main {  // Class name must match file name
         // scanner.close();
 
 
-        
+
         // Comparison operators
         int x = 10;
         int y = 5;
@@ -172,6 +172,12 @@ public class Main {  // Class name must match file name
         int number = 5;
         int factorial = calculateFactorial(number);
         System.out.println("Factorial of " + number + " is: " + factorial);
+
+
+        // Method Overloading
+        System.out.println("Sum of 5 and 10: " + add(5, 10));
+        System.out.println("Sum of 5.5 and 10.5: " + add(5.5, 10.5));
+        System.out.println("Sum of 5, 10 and 15: " + add(5, 10, 15));
     }
 
     // Function to calculate factorial
