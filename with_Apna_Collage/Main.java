@@ -97,5 +97,12 @@ public class Main {  // Class name must match file name
         } else {
             System.out.println("x is not greater than y");
         }
+
+
+        // Loops
+        System.out.println("For loop from 1 to 5:");
+        for (int i = 1; i <= 5; i++) {
+            System.out.println("Iteration " + i);
+        }
     }
 }
