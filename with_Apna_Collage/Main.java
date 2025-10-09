@@ -49,5 +49,11 @@ public class Main {  // Class name must match file name
         System.out.println("Widening: " + myDouble);
         int anotherInt = (int) myDouble; // Narrowing conversion
         System.out.println("Narrowing: " + anotherInt);
+
+
+
+        // Constants       
+        final double PI = 3.14159;
+        System.out.println("Value of PI: " + PI);
     }
 }
