@@ -173,8 +173,11 @@ public class Main {  // Class name must match file name
             System.out.println("Error: Division by zero is not allowed.");
         }
 
+        // Methods and Functions
+        // String message = greet("John");
+        // System.out.println(message);
+         
 
-        
         // functions
         int number = 5;
         int factorial = calculateFactorial(number);
