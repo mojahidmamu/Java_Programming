@@ -24,7 +24,6 @@ public class Main {  // Class name must match file name
             System.out.println("Subject " + (i + 1) + ": " + marks[i]);
         }
 
-         
         // sorting the array
         Arrays.sort(marks);
         System.out.println("Sorted marks: " + Arrays.toString(marks));
@@ -50,19 +49,15 @@ public class Main {  // Class name must match file name
         int anotherInt = (int) myDouble; // Narrowing conversion
         System.out.println("Narrowing: " + anotherInt);
 
-
-
         // Constants       
         final double PI = 3.14159;
         System.out.println("Value of PI: " + PI);
-
 
         // Operators
         int a = 10;
         int b = 5;
         int sum = a + b;
-        System.out.println("Sum: " + sum);  
-
+        System.out.println("Sum: " + sum);
 
         // Math class
         double squareRoot = Math.sqrt(16);
@@ -73,15 +68,12 @@ public class Main {  // Class name must match file name
         // System.out.print("Enter your name: ");
         // String name = scanner.nextLine();
         // System.out.println("Hello, " + name + "!");
-
         // System.out.print("Enter your age: ");
         // int age = scanner.nextInt();
         // System.out.println("You are " + age + " years old.");
-
         // scanner.close();
-
         // Comparison operators
-        int x = 10; 
+        int x = 10;
         int y = 5;
         System.out.println("x == y: " + (x == y));
         System.out.println("x != y: " + (x != y));
@@ -90,14 +82,12 @@ public class Main {  // Class name must match file name
         System.out.println("x >= y: " + (x >= y));
         System.out.println("x <= y: " + (x <= y));
 
-
         // Conditional statements
         if (x > y) {
             System.out.println("x is greater than y");
         } else {
             System.out.println("x is not greater than y");
         }
-
 
         // Loops
         System.out.println("For loop from 1 to 5:");
@@ -134,7 +124,6 @@ public class Main {  // Class name must match file name
                 System.out.println("Invalid day");
         }
 
-
         // break and continue
         System.out.println("Using break in a loop:");
         for (int i = 1; i <= 5; i++) {
@@ -144,7 +133,7 @@ public class Main {  // Class name must match file name
             System.out.println("Iteration " + i);
         }
         // continue
-        System.out.println("Using continue in a loop:");    
+        System.out.println("Using continue in a loop:");
         for (int i = 1; i <= 5; i++) {
             if (i == 3) {
                 continue;
