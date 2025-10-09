@@ -104,5 +104,12 @@ public class Main {  // Class name must match file name
         for (int i = 1; i <= 5; i++) {
             System.out.println("Iteration " + i);
         }
+
+        // logic operators
+        boolean p = true;
+        boolean q = false;
+        System.out.println("p && q: " + (p && q));
+        System.out.println("p || q: " + (p || q));
+        System.out.println("!p: " + (!p));
     }
 }
