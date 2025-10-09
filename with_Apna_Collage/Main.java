@@ -171,5 +171,18 @@ public class Main {  // Class name must match file name
         } catch (ArithmeticException e) {
             System.out.println("Error: Division by zero is not allowed.");
         }
+
+        // functions
+        int number = 5;
+        int factorial = calculateFactorial(number);
+        System.out.println("Factorial of " + number + " is: " + factorial);
+    }
+
+    // Function to calculate factorial
+    static int calculateFactorial(int n) {
+        if (n == 0) {
+            return 1;
+        }
+        return n * calculateFactorial(n - 1);
     }
 }
