@@ -62,5 +62,10 @@ public class Main {  // Class name must match file name
         int b = 5;
         int sum = a + b;
         System.out.println("Sum: " + sum);  
+
+
+        // Math class
+        double squareRoot = Math.sqrt(16);
+        System.out.println("Square root of 16: " + squareRoot);
     }
 }
