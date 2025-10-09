@@ -69,16 +69,16 @@ public class Main {  // Class name must match file name
         System.out.println("Square root of 16: " + squareRoot);
 
         // Taking input from user
-        java.util.Scanner scanner = new java.util.Scanner(System.in);
-        System.out.print("Enter your name: ");
-        String name = scanner.nextLine();
-        System.out.println("Hello, " + name + "!");
+        // java.util.Scanner scanner = new java.util.Scanner(System.in);
+        // System.out.print("Enter your name: ");
+        // String name = scanner.nextLine();
+        // System.out.println("Hello, " + name + "!");
 
-        System.out.print("Enter your age: ");
-        int age = scanner.nextInt();
-        System.out.println("You are " + age + " years old.");
+        // System.out.print("Enter your age: ");
+        // int age = scanner.nextInt();
+        // System.out.println("You are " + age + " years old.");
 
-        scanner.close();
+        // scanner.close();
 
         // Comparison operators
         int x = 10; 
@@ -89,5 +89,13 @@ public class Main {  // Class name must match file name
         System.out.println("x < y: " + (x < y));
         System.out.println("x >= y: " + (x >= y));
         System.out.println("x <= y: " + (x <= y));
+
+
+        // Conditional statements
+        if (x > y) {
+            System.out.println("x is greater than y");
+        } else {
+            System.out.println("x is not greater than y");
+        }
     }
 }
