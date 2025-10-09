@@ -1,3 +1,4 @@
+import java.lang.reflect.Array;
 import java.util.Arrays;
 public class Main {  // Class name must match file name
     public static void main(String[] args) {
@@ -19,6 +20,9 @@ public class Main {  // Class name must match file name
         for (int i = 0; i < marks.length; i++) {
             System.out.println("Subject " + (i + 1) + ": " + marks[i]);
         }
+        // sorting the array
+        Arrays.sort(marks);
+        System.out.println("Sorted marks: " + Arrays.toString(marks));
     }
 }
  
