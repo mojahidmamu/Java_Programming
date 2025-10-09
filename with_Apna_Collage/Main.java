@@ -143,5 +143,13 @@ public class Main {  // Class name must match file name
             }
             System.out.println("Iteration " + i);
         }
+        // continue
+        System.out.println("Using continue in a loop:");    
+        for (int i = 1; i <= 5; i++) {
+            if (i == 3) {
+                continue;
+            }
+            System.out.println("Iteration " + i);
+        }
     }
 }
