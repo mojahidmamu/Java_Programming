@@ -55,5 +55,12 @@ public class Main {  // Class name must match file name
         // Constants       
         final double PI = 3.14159;
         System.out.println("Value of PI: " + PI);
+
+
+        // Operators
+        int a = 10;
+        int b = 5;
+        int sum = a + b;
+        System.out.println("Sum: " + sum);  
     }
 }
