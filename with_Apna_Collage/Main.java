@@ -67,5 +67,17 @@ public class Main {  // Class name must match file name
         // Math class
         double squareRoot = Math.sqrt(16);
         System.out.println("Square root of 16: " + squareRoot);
+
+        // Taking input from user
+        java.util.Scanner scanner = new java.util.Scanner(System.in);
+        System.out.print("Enter your name: ");
+        String name = scanner.nextLine();
+        System.out.println("Hello, " + name + "!");
+
+        System.out.print("Enter your age: ");
+        int age = scanner.nextInt();
+        System.out.println("You are " + age + " years old.");
+
+        scanner.close();
     }
 }
