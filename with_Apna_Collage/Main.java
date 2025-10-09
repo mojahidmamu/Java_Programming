@@ -159,5 +159,17 @@ public class Main {  // Class name must match file name
         } catch (ArithmeticException e) {
             System.out.println("Error: Division by zero is not allowed.");
         }
+
+        // catch multiple exception
+        try {
+            int[] arr = {1, 2, 3};
+            System.out.println(arr[5]);
+            int result = 10 / 0;
+            System.out.println("Result: " + result);
+        } catch (ArrayIndexOutOfBoundsException e) {
+            System.out.println("Error: Array index is out of bounds.");
+        } catch (ArithmeticException e) {
+            System.out.println("Error: Division by zero is not allowed.");
+        }
     }
 }
