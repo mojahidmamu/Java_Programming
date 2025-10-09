@@ -141,6 +141,7 @@ public class Main {  // Class name must match file name
             System.out.println("Iteration " + i);
         }
 
+
         // try and catch
         try {
             int result = 10 / 0;
@@ -148,6 +149,7 @@ public class Main {  // Class name must match file name
         } catch (ArithmeticException e) {
             System.out.println("Error: Division by zero is not allowed.");
         }
+
 
         // catch multiple exception
         try {
@@ -161,6 +163,8 @@ public class Main {  // Class name must match file name
             System.out.println("Error: Division by zero is not allowed.");
         }
 
+
+        
         // functions
         int number = 5;
         int factorial = calculateFactorial(number);
