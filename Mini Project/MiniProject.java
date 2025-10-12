@@ -18,7 +18,7 @@ public class MiniProject {
             userNumber = sc.nextInt();
 
             if (userNumber == myNumer) {
-                System.out.println("You guessed  it right. Congratulations!");
+                System.out.println("You guessed it right. Congratulations!");
                 break;
             } else if (userNumber < myNumer) {
                 System.out.println("Too low, try again.");
