@@ -6,7 +6,7 @@ public class MiniProject {
     public static void main(String[] args) {
         // --- Your code starts here ---  
 
-        // MINI PROJECT: Simple Banking System 
+        // MINI PROJECT: Number Guessing Game
         Scanner sc = new Scanner(System.in);
 
         System.out.println("🎯 Welcome to the Number Guessing Game!");
