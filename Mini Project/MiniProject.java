@@ -1,9 +1,11 @@
+
 import java.util.Scanner;
 
 public class MiniProject {
+
     public static void main(String[] args) {
         // --- Your code starts here ---  
-        
+
         // MINI PROJECT: Simple Banking System 
         Scanner sc = new Scanner(System.in);
 
@@ -17,16 +19,15 @@ public class MiniProject {
             if (userNumber == myNumer) {
                 System.out.println("You guessed  it right");
                 break;
-            }
-            else if (userNumber < myNumer) {
+            } else if (userNumber < myNumer) {
                 System.out.println("Too low, try again.");
-            }
-             else {
+            } else {
                 System.out.println("Too high, try again.");
             }
         } while (userNumber != myNumer);
 
         System.out.println("The correct number was: " + myNumer);
-        sc.close(); 
-    }   
+        System.out.println("Thanks for playing!");
+        sc.close();
+    }
 }
