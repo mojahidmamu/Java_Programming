@@ -13,7 +13,9 @@ public class MiniProject {
         int myNumer = (int) (Math.random() * 100);
         int userNumber = 0;
         do {
-            System.out.println("Guess the number: 1-100");
+            System.out.println("🎯 Welcome to the Number Guessing Game!");
+            // System.out.println("Guess the number: ");
+            System.out.print("Enter your guess: (1-100)");
             userNumber = sc.nextInt();
 
             if (userNumber == myNumer) {
