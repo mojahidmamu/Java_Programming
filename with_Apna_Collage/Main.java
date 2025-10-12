@@ -12,6 +12,7 @@ public class Main {  // Class name must match file name
         System.out.println("I am excited to learn Java programming.");
         System.out.println("Java is a versatile and powerful language.");
 
+        // array: 
         int[] marks = new int[5];
         marks[0] = 85;
         marks[1] = 90;
@@ -19,6 +20,7 @@ public class Main {  // Class name must match file name
         marks[3] = 88;
         marks[4] = 92;
 
+        // print  array: 
         System.out.println("Marks obtained in the subjects are:");
         for (int i = 0; i < marks.length; i++) {
             System.out.println("Subject " + (i + 1) + ": " + marks[i]);
@@ -34,6 +36,7 @@ public class Main {  // Class name must match file name
             {4, 5, 6},
             {7, 8, 9}
         };
+        // print 2D array:
         System.out.println("2D Matrix:");
         for (int i = 0; i < matrix.length; i++) {
             for (int j = 0; j < matrix[i].length; j++) {
@@ -63,7 +66,7 @@ public class Main {  // Class name must match file name
         double squareRoot = Math.sqrt(16);
         System.out.println("Square root of 16: " + squareRoot);
 
-        // Taking input from user
+        // Taking input from user: 
         // java.util.Scanner scanner = new java.util.Scanner(System.in);
         // System.out.print("Enter your name: ");
         // String name = scanner.nextLine();
