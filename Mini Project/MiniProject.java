@@ -9,7 +9,7 @@ public class MiniProject {
         // MINI PROJECT: Number Guessing Game
         Scanner sc = new Scanner(System.in);
 
-        System.out.println("🎯 Welcome to the Number Guessing Game!");
+        System.out.println(" Welcome to the Number Guessing Game!");
         // Randdom number between 0-99: 
         int myNumer = (int) (Math.random() * 100);
         int userNumber = 0;
