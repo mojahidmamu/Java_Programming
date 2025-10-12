@@ -9,17 +9,16 @@ public class MiniProject {
         // MINI PROJECT: Simple Banking System 
         Scanner sc = new Scanner(System.in);
 
+        System.out.println("🎯 Welcome to the Number Guessing Game!");
         // Randdom number between 0-99: 
         int myNumer = (int) (Math.random() * 100);
         int userNumber = 0;
         do {
-            System.out.println("🎯 Welcome to the Number Guessing Game!");
-            // System.out.println("Guess the number: ");
-            System.out.print("Enter your guess: (1-100)");
+            System.out.print("Enter your guess: (1-100): ");
             userNumber = sc.nextInt();
 
             if (userNumber == myNumer) {
-                System.out.println("You guessed  it right");
+                System.out.println("You guessed  it right. Congratulations!");
                 break;
             } else if (userNumber < myNumer) {
                 System.out.println("Too low, try again.");
@@ -29,7 +28,7 @@ public class MiniProject {
         } while (userNumber != myNumer);
 
         System.out.println("The correct number was: " + myNumer);
-        System.out.println("Thanks for playing!");
+        System.out.println("Thanks for playing! by Abdullah all Mojahid");
         sc.close();
     }
 }
