@@ -17,5 +17,10 @@ public class first {
         int month = 7;
         int days = month * 30;
         System.out.println("The days in " + month + " months are: " + days);
+
+        // hours to minutes
+        int hours = 5;
+        int minutes = hours * 60;
+        System.out.println("The minutes in " + hours + " hours are: " + minutes);
     }
 }
