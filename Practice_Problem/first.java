@@ -72,7 +72,7 @@ public class first {
         }
 
         // prime number check
-        int number = 29;
+        int number = 9;
         boolean isPrime = true;
         if (number <= 1) {
             isPrime = false;
@@ -88,6 +88,15 @@ public class first {
             System.out.println(number + " is a prime number.");
         } else {
             System.out.println(number + " is not a prime number.");
+        }
+
+        // Nested for loops to print a pattern
+        int n = 5;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+            System.out.println();
         }
     }
 }
