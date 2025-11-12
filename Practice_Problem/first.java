@@ -46,7 +46,7 @@ public class first {
         // triangle area
         int len1 = 5;
         int len2 = 10;
-        int len3 = 15;
+        int len3 = 7;
         if (len1 + len2 > len3 && len2 + len3 > len1 && len3 + len1 > len2) {
             int s = (len1 + len2 + len3) / 2;
             double area1 = Math.sqrt(s * (s - len1) * (s - len2) * (s - len3));
@@ -55,5 +55,18 @@ public class first {
             System.out.println("The lengths do not form a triangle.");
         }
 
+        // Quadratic equation roots
+        int A = 1;
+        int B = -3;
+        int C = 2;
+        double D =(( B * B )- (4 * A * C));
+        if (D > 0) {
+           
+        } else if (D == 0) {
+            double root = -B / (2 * A);
+            System.out.println("Roots are real and same. Root: " + root);
+        } else {
+            System.out.println("Roots are complex and different.");
+        }
     }
 }
