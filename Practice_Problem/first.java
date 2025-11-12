@@ -1,6 +1,5 @@
 
 public class first {
-
     public static void main(String[] args) {
         int a = 5;
         int b = 10;
@@ -99,7 +98,6 @@ public class first {
             System.out.println();
         }
 
-
         // Fibonacci series
         int terms = 10;
         int first = 0, second = 1;
@@ -110,7 +108,6 @@ public class first {
             first = second;
             second = next;
         }
-
 
         // prime with in range
         int lower = 10, upper = 50;
@@ -131,7 +128,6 @@ public class first {
                 System.out.print(num + " ");
             }
         }
-
 
         // factorial of number
         int number1 = 5;
