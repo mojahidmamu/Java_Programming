@@ -66,7 +66,7 @@ public class first {
             double root = -B / (2 * A);
             System.out.println("Roots are real and same. Root: " + root);
         } else {
-            System.out.println("Roots are complex and different.");
+            System.out.println("Roots are not possible");
         }
     }
 }
