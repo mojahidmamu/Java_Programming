@@ -131,5 +131,14 @@ public class first {
                 System.out.print(num + " ");
             }
         }
+
+
+        // factorial of number
+        int number1 = 5;
+        long factorial = 1;
+        for (int i = 1; i <= number1; i++) {
+            factorial *= i;
+        }
+        System.out.println("Factorial of " + number1 + " is: " + factorial);
     }
 }
