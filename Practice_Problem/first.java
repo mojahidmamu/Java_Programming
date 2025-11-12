@@ -110,5 +110,26 @@ public class first {
             first = second;
             second = next;
         }
+
+
+        // prime with in range
+        int lower = 10, upper = 50;
+        System.out.println("\nPrime numbers between " + lower + " and " + upper + " are:");
+        for (int num = lower; num <= upper; num++) {
+            boolean prime = true;
+            if (num <= 1) {
+                prime = false;
+            } else {
+                for (int i = 2; i <= Math.sqrt(num); i++) {
+                    if (num % i == 0) {
+                        prime = false;
+                        break;
+                    }
+                }
+            }
+            if (prime) {
+                System.out.print(num + " ");
+            }
+        }
     }
 }
