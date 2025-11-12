@@ -12,5 +12,10 @@ public class first {
         int width = 20;
         int area = height * width;
         System.out.println("The area of rectangle is: " + area);
+
+        // month to days
+        int month = 7;
+        int days = month * 30;
+        System.out.println("The days in " + month + " months are: " + days);
     }
 }
