@@ -22,5 +22,10 @@ public class first {
         int hours = 5;
         int minutes = hours * 60;
         System.out.println("The minutes in " + hours + " hours are: " + minutes);
+
+        //  centigrate to fahrenheit
+        int centigrate = 37;
+        int fahrenheit = (centigrate * 9 / 5) + 32;
+        System.out.println(centigrate + " degree centigrate is equal to " + fahrenheit + " degree fahrenheit.");
     }
 }
