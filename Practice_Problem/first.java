@@ -61,7 +61,9 @@ public class first {
         int C = 2;
         double D =(( B * B )- (4 * A * C));
         if (D > 0) {
-           
+            double root1 = (-B + Math.sqrt(D)) / (2 * A);
+            double root2 = (-B - Math.sqrt(D)) / (2 * A);
+            System.out.println("Roots are real and different. Root1: " + root1 + ", Root2: " + root2);
         } else if (D == 0) {
             double root = -B / (2 * A);
             System.out.println("Roots are real and same. Root: " + root);
