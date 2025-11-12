@@ -30,9 +30,18 @@ public class first {
 
         // average of three numbers
         int num1 = 10;
-        int num2 = 20;  
+        int num2 = 20;
         int num3 = 30;
         int average = (num1 + num2 + num3) / 3;
         System.out.println("The average of three numbers is: " + average);
+
+        // leaping year
+        int year = 2020;
+        if ((year % 4 == 0 && year % 100 != 0) || (year % 400 == 0)) {
+            System.out.println(year + " is a leap year.");
+        } else {
+            System.out.println(year + " is not a leap year.");
+        }
+
     }
 }
