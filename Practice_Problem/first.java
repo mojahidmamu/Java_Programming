@@ -43,5 +43,17 @@ public class first {
             System.out.println(year + " is not a leap year.");
         }
 
+        // triangle area
+        int len1 = 5;
+        int len2 = 10;
+        int len3 = 15;
+        if (len1 + len2 > len3 && len2 + len3 > len1 && len3 + len1 > len2) {
+            int s = (len1 + len2 + len3) / 2;
+            double area1 = Math.sqrt(s * (s - len1) * (s - len2) * (s - len3));
+            System.out.println("The area of the triangle is: " + area1);
+        } else {
+            System.out.println("The lengths do not form a triangle.");
+        }
+
     }
 }
