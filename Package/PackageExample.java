@@ -1,5 +1,13 @@
+
+import java.util.Scanner;
+
 public class PackageExample {
+
     public static void main(String[] args) {
-        System.out.println("This is an example of a Java package.");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter your name: ");
+        String name = sc.nextLine();
+        System.out.println("Hello, " + name + "!");
+
     }
 }
