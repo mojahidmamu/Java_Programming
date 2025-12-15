@@ -12,7 +12,7 @@ public class arrayExample_2 {
         // Taking input from user: 
         System.err.println("Enter " + n + "  elements");
         for (int i = 0; i < n; i++) {
-            arr[i] = input.nextInt();
+            arr[i] = input.nextInt();  
         }
 
         // print all element: 
