@@ -1,7 +1,6 @@
 // Parent class: 
 
 class animal {
-
     void eat() {
         System.out.println("Animal can eat");
     }
@@ -9,7 +8,6 @@ class animal {
 
 // Child class: 
 class Dogs extends animal {
-
     void barks() {
         System.out.println("Dogs can bark");
     }
