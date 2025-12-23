@@ -1,6 +1,5 @@
 
 interface A {
-
     void show();
 }
 
