@@ -17,7 +17,7 @@ class Student {
     }
 
     void  display() {
-        System.out.println(id + " " + name);
+        System.out.println("Name is "+ name + " and id is:" + id);
     }
 
 }
