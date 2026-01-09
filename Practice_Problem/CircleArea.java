@@ -1,32 +1,26 @@
 
-class over {
+class Student {
 
-    void area(int a, int b) {
-        int z = a + b;
-        System.out.println("Area of " + z);
-        return;
-    }
+    String name;
+    int roll;
+    int marks;
 
-    void area(double a, double b, double c) {
-        double z = a * b * c;
-        System.out.println("Area of " + z);
-        return;
-    }
+    // Constructor method
+    Student() {
+        name = "Lamia";
+        roll = 101;
+        marks = 95;
 
-    void area(int sintia) {
-        System.out.println("Girlfriend of Rezuyan: " + sintia);
-        return;
-    }
+        System.out.println("Name: " + name);
+        System.out.println("Roll No: " + roll);
+        System.out.println("Marks: " + marks);
 
-}
-
-public class CircleArea {
-
-    public static void main(String args[]) {
-        //  method overloading in Java
-        over iktiar = new over();
-        iktiar.area(5, 10);
-        iktiar.area(5.5, 6.5, 2.5);
-        iktiar.area(1);
     }
 }
+    public class CircleArea {
+
+        public static void main(String args[]) {
+            //  Constructor method
+            Student Lam = new Student();
+        }
+    }
