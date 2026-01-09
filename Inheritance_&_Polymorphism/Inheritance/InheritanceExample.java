@@ -1,5 +1,4 @@
 // Parent class: 
-
 class animal {
     void eat() {
         System.out.println("Animal can eat");

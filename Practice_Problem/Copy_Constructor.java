@@ -23,11 +23,12 @@ class Student {
 }
 
 public class Copy_Constructor {
-
+    
     public static void main(String[] args) {
         Student s1 = new  Student("Mojahid", 11);
         Student s2 = new  Student(s1);
-
+        
+        System.out.println("Vaia,,kaj ta tik hoi nai?");
 
         s1.display();
         s2.display();
