@@ -12,17 +12,17 @@ class Student {
     }
 
     void display() {
-        System.out.println("Roll number: " + roll);
+        System.out.println("Roll number of lam is " + roll);
     }
 }
     public class CircleArea {
 
         public static void main(String args[]) {
             //  Constructor method
-            Student Lam = new Student(05);
+            Student Lam = new Student(10);
             Lam.display();
 
-            Student John = new Student(Lam);
+            Student John = new Student(50);
             John.display();
         }
     }
