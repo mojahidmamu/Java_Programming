@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+/* GLOBAL */
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+/* HEADER */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.menu {
+  display: flex;
+  gap: 24px;
+  list-style: none;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.btn {
+  background: #469165;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 4px;
+}
+
+/* HERO */
+.hero {
+  background: url("assets/hero-bg.png") center/cover no-repeat;
+  min-height: 80vh;
+  text-align: center;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+
+.span-1, .span-2 {
+  font-size: clamp(32px, 5vw, 64px);
+}
+
+.span-2 {
+  color: #30B868;
+}
+
+/* BUTTONS */
+.btn-parent {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+/* NOTES */
+.notes {
+  text-align: center;
+  margin: 60px auto;
+}
+
+/* FEATURES */
+.main-sec {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 24px;
+}
+
+.sec {
+  background: white;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+.subsec {
+  background: #469165;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+/* BRAIN */
+.brain {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  margin: 100px auto;
+}
+
+.brain img {
+  max-width: 100%;
+}
+
+/* CTA */
+.marks {
+  background: #F7F6F2;
+  padding: 80px 0;
+  text-align: center;
+}
+
+/* FOOTER */
+.footer {
+  background: #001931;
+  padding: 60px 0;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.foot i {
+  background: white;
+  color: black;
+  border-radius: 50%;
+  padding: 6px;
+  margin-right: 8px;
+}
+
+/* COPYRIGHT */
+footer {
+  background: #001931;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  text-align: center;
+  padding: 20px 0;
+  color: white;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .header,
+  .footer-content,
+  .brain {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .menu {
+    flex-direction: column;
+  }
+}
