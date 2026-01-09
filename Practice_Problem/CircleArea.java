@@ -13,11 +13,10 @@ class over {
         return;
     }
 
-     void area(int sintia) {
+    void area(int sintia) {
         System.out.println("Girlfriend of Rezuyan: " + sintia);
         return;
     }
-
 
 }
 
@@ -25,6 +24,9 @@ public class CircleArea {
 
     public static void main(String args[]) {
         //  method overloading in Java
-
+        over iktiar = new over();
+        iktiar.area(5, 10);
+        iktiar.area(5.5, 6.5, 2.5);
+        iktiar.area(1);
     }
 }
