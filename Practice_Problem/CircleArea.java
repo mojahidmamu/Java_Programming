@@ -1,26 +1,28 @@
 
 class Student {
-
-    String name;
     int roll;
-    int marks;
 
     // Constructor method
-    Student() {
-        name = "Lamia";
-        roll = 101;
-        marks = 95;
+    Student(int R) {
+        roll = R;
+    }
 
-        System.out.println("Name: " + name);
-        System.out.println("Roll No: " + roll);
-        System.out.println("Marks: " + marks);
+    Student(Student s) {
+        roll = s.roll;
+    }
 
+    void display() {
+        System.out.println("Roll number: " + roll);
     }
 }
     public class CircleArea {
 
         public static void main(String args[]) {
             //  Constructor method
-            Student Lam = new Student();
+            Student Lam = new Student(05);
+            Lam.display();
+
+            Student John = new Student(Lam);
+            John.display();
         }
     }
