@@ -16,7 +16,7 @@ class Student {
 }
 
 public class Constructor {
-     ublic static void main(String[] args) {
+    public static void main(String[] args) {
 
         Student s1 = new Student("Mojahid" , 120 );
         Student s2 = new Student("Abdullah" , 200 );
