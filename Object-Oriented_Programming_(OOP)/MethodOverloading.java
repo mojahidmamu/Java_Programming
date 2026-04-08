@@ -14,5 +14,8 @@ public class MethodOverloading {
 
         int sum1 = math.add(5, 10);
         int sum2 = math.add(5, 10, 15);
+
+        System.out.println("Sum of 5 and 10: " + sum1);
+        System.out.println("Sum of 5, 10 and 15: " + sum2);
     }
 }
